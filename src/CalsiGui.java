@@ -146,8 +146,3 @@ class CalsGui extends Frame implements ActionListener /*implements ActionListene
         new CalsGui();
     }
 }
-
-//the problem is that:
-//        the after overwriting the array the second number index is taking
-//        the + operator index is taken by previous
-//        and also i tried to put the operator array to null but after the
